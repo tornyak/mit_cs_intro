@@ -24,7 +24,7 @@ else:
    print "Cold"
 
 
-varA = 4
+varA = 'hello'
 varB = 6
 
 if type(varA) is str or type(varB) is str:
