@@ -15,7 +15,7 @@ def deployment_ready_clean(fn):
 
     fo = open("DEPLOYMENT.tmp", "w")
 
-    rstate = lines[1].rsplit(" ",1)[1]
+    rstate = "R10"
     rstate=rstate.rstrip()
     create_p_backup=1
 
@@ -32,8 +32,14 @@ def deployment_ready_clean(fn):
             fo.write("# cluster.conf for MTASv\n")
         elif "End of file" in e:
             writeflag = 1
-        elif "evip version" in e:
-            e = re.sub(r'<evip version=\"1.0\"/>', '# evip.xml for MTASv', e)
+        elif re.match(r'\[CD\-BEGIN:.*evipcfg.xml\]', e) is not None:
+            # evip block started
+            fo.write(e)
+            fo.write('# evip.xml for MTASv\n')
+            writeflag = 0
+        elif re.match(r'\[CD\-END:.*evipcfg.xml\]', e) is not None:
+            # evip block ended
+            writeflag = 1
         elif "disk_device_path=" in e:
             e = re.sub(r'sdb', 'vda', e)
         if writeflag != 0:
@@ -52,9 +58,9 @@ def deployment_ready_clean(fn):
 '''
 merge evip.xml and cluster.conf to DEPLOYMENT.tmp, rename it as DEPLOYMENT.ready
 '''
-def merge_evip_cluster_conf(nodename,pl,dir):
-    cluster = open("/local/mtas_conf/"+nodename+"_cloud_cluster.conf.2SC"+pl+"PL")
-    evip = open("/local/mtas_conf/"+nodename+"_cloud_evipcfg.xml.2SC"+pl+"PL")
+def merge_evip_cluster_conf():
+    cluster = open("mtas-cba-41-6_cloud_cluster.conf.2SC28PL.txt")
+    evip = open("mtas-cba-41-6_cloud_evipcfg.xml.2SC28PL")
     conf1 = cluster.read().splitlines()
     conf2 = evip.read().splitlines()
 
@@ -82,3 +88,7 @@ def merge_evip_cluster_conf(nodename,pl,dir):
     evip.close()
 
     os.remove("DEPLOYMENT.tmp")
+
+
+deployment_ready_clean("DEPLOYMENT.working")
+merge_evip_cluster_conf()
