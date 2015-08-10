@@ -162,21 +162,15 @@ class Family(object):
             parentsB.append(pB)
             pB = pB.get_parent()
 
-        print "a: ", a, " parentsA:"
-        for p in parentsA:
-            print p.name
-
-        print "b: ", b, " parentsB:"
-        for p in parentsB:
-            print p.name
-
-        cousinType = -1
+        cnt = 0
         # we have both paths, now we need to find intersection
         for i in range(1, min(len(parentsA), len(parentsB)) + 1):
             if parentsA[len(parentsA) - i] == parentsB[len(parentsB) - i]:
-                cousinType += 1
+                cnt += 1
             else:
                 break
+
+        cousinType = min(len(parentsA), len(parentsB)) - cnt
 
         degreeRemoved = abs(len(parentsA) - len(parentsB))
         return cousinType, degreeRemoved
