@@ -1,158 +1,3 @@
-[CD-BEGIN:lm-3.2_PRA-manager_runtime_CXP9020396_3_R3A09.tar.gz:SMF:MTAS_CBA_License_Manager_AIT_PLUGIN-CXP9031079-R2D01.tar.gz]
-Installation_campaign=installCampaign/ERIC-LmServerInstall-R3A09.sdp
-[CD-END:lm-3.2_PRA-manager_runtime_CXP9020396_3_R3A09.tar.gz:SMF:MTAS_CBA_License_Manager_AIT_PLUGIN-CXP9031079-R2D01.tar.gz]
-[CD-BEGIN:LM_SA_RUNTIME-CXP9021377_1-R1D02.tar.gz:SMF:MTAS_CBA_License_Manager_SA_AIT_PLUGIN-CXP9031081-R1G01.tar.gz]
-Installation_campaign=installCampaign/ERIC-LmSA-INSTALL-CXP9021378_1-R1D02.sdp
-[CD-END:LM_SA_RUNTIME-CXP9021377_1-R1D02.tar.gz:SMF:MTAS_CBA_License_Manager_SA_AIT_PLUGIN-CXP9031081-R1G01.tar.gz]
-[CD-BEGIN:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz]
-Installation_campaign=EVIP_I1_TEMPLATE-CXP9020395_1-R5A16/EVIP_INSTALL_SS-R5A16.sdp
-[CD-END:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz]
-[CD-BEGIN:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz:evipcfg.xml]
-<evip version="1.0"/>
-
-[CD-END:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz:evipcfg.xml]
-[CD-BEGIN:ss7caf-4.2_SH3-runtime_ANA90137_1_R3A03.tar.gz:SMF:MTAS_CBA_SS7_CAF_AIT_PLUGIN-CXP9031082-R1G01.tar.gz]
-Installation_campaign=./ERIC-SS7CAF_I-TEMPLATE-CXP9020969-R3A03/ERIC-SS7CAF_I-TEMPLATE-CXP9020969-R3A03.sdp
-[CD-END:ss7caf-4.2_SH3-runtime_ANA90137_1_R3A03.tar.gz:SMF:MTAS_CBA_SS7_CAF_AIT_PLUGIN-CXP9031082-R1G01.tar.gz]
-[CD-BEGIN:MTAS_CBA_SLES_RPMS_RT-CXP9040417-R1G01.tar.gz:SMF:MTAS_CBA_SLES_RPMS_AIT_PLUGIN-CXP9031083-R1G01.tar.gz]
-Installation_campaign=./ERIC-SLES_RPMS-I-R1G01.sdp
-[CD-END:MTAS_CBA_SLES_RPMS_RT-CXP9040417-R1G01.tar.gz:SMF:MTAS_CBA_SLES_RPMS_AIT_PLUGIN-CXP9031083-R1G01.tar.gz]
-[CD-BEGIN:JAVAOAM_RUNTIME_CXP9020490_1_R4A101.tar.gz:SMF:JAVAOAM_D_TEMPLATE_CXP9020489_1_R4A101.tar.gz]
-Installation_campaign=ERIC-JAVAOAM-I-CXP9020489_1_R4A101/ERIC-JAVAOAM-I-2SCxNPL.sdp
-[CD-END:JAVAOAM_RUNTIME_CXP9020490_1_R4A101.tar.gz:SMF:JAVAOAM_D_TEMPLATE_CXP9020489_1_R4A101.tar.gz]
-[CD-BEGIN:IspC_RUNTIME_CXP9022351_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_C_AIT_PLUGIN-CXP9031084-R1G01.tar.gz]
-Installation_campaign=ERIC-ISP-C-I1-TEMPLATE-CXP9022352_1-R5A03/ERIC-ISP-C-I1-TEMPLATE-CXP9022352_1-R5A03.sdp
-[CD-END:IspC_RUNTIME_CXP9022351_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_C_AIT_PLUGIN-CXP9031084-R1G01.tar.gz]
-[CD-BEGIN:IspSa_RUNTIME_CXP9022353_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_SA_AIT_PLUGIN-CXP9031085-R1G01.tar.gz]
-Installation_campaign=ERIC-ISP-SA-I1-TEMPLATE-CXP9022354_1-R5A03/ERIC-ISP-SA-I1-TEMPLATE-CXP9022354_1-R5A03.sdp
-[CD-END:IspSa_RUNTIME_CXP9022353_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_SA_AIT_PLUGIN-CXP9031085-R1G01.tar.gz]
-[CD-BEGIN:sec-1.3_PRA-crypto_runtime_CXP9022653_R2A.gz:SMF:MTAS_CBA_SEC_CRYPTO_AIT_PLUGIN-CXP9031086-R1G01.tar.gz]
-Installation_campaign=ERIC-SecCrypto-InstCamp/ERIC-SecCrypto-InstCamp.sdp
-[CD-END:sec-1.3_PRA-crypto_runtime_CXP9022653_R2A.gz:SMF:MTAS_CBA_SEC_CRYPTO_AIT_PLUGIN-CXP9031086-R1G01.tar.gz]
-[CD-BEGIN:sec-1.3_PRA-cert_runtime_CXP9024794_R2A.gz:SMF:MTAS_CBA_SEC_CERT_AIT_PLUGIN-CXP9031087-R1G01.tar.gz]
-Installation_campaign=ERIC-SecCert-InstCamp/ERIC-SecCert-InstCamp.sdp
-[CD-END:sec-1.3_PRA-cert_runtime_CXP9024794_R2A.gz:SMF:MTAS_CBA_SEC_CERT_AIT_PLUGIN-CXP9031087-R1G01.tar.gz]
-[CD-BEGIN:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz]
-Installation_campaign=Brfc-I-CXP9020483_1-R4A06/Brfc-I-CXP9020483_1-R4A06.sdp
-[CD-END:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz]
-[CD-BEGIN:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz:brfc.conf]
-# BRF-C Deployment configuration
-#
-# This parameter is used to determine whether or not BRF-C must allow
-# the deletion of the backup marked as "Primary Restore Candidate" i.e.
-# the first one in restoreEscalationList in BrmBackupLabelStore MOC in BRM MOM.
-#
-#  1 = ENABLED
-#  2 = DISABLED
-#
-# The default value is 1 (ENABLED) to maintain backwards compatibility; however,
-# it is strongly recommended to disable this option to protect the
-# node from a situation where primary restore candidate may be deleted
-# accidentally or otherwise.
-#
-# This value cannot be changed after deployment.
-
-deletePrimaryRestoreCandidate="1"
-
-[CD-END:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz:brfc.conf]
-[CD-BEGIN:LDE_BRF-CXP9021148_2-RUNTIME.tar.gz:SMF:MTAS_CBA_LDE_BRF_AIT_PLUGIN-CXP9031088-R1G01.tar.gz]
-Installation_campaign=ERIC-lde-brf-script_I1_TEMPLATE_CXP9021149_2-R1C01/ERIC-lde-brf-script_I1_TEMPLATE_CXP9021149_2-R1C01.sdp
-[CD-END:LDE_BRF-CXP9021148_2-RUNTIME.tar.gz:SMF:MTAS_CBA_LDE_BRF_AIT_PLUGIN-CXP9031088-R1G01.tar.gz]
-[CD-BEGIN:MTAS_CBA_MMAS_RT-CXP9040418-R1G01.tar.gz:SMF:MTAS_CBA_MMAS_AIT_PLUGIN-CXP9031090-R1G01.tar.gz]
-Installation_campaign=ERIC-MMAS-I-CXP9040089_4_R6A149/ERIC-MMAS-I-GENERATED.sdp
-[CD-END:MTAS_CBA_MMAS_RT-CXP9040418-R1G01.tar.gz:SMF:MTAS_CBA_MMAS_AIT_PLUGIN-CXP9031090-R1G01.tar.gz]
-[CD-BEGIN:CDF_RT-CXP9030885-R3A02.tar.gz,PSR-MTAS_CBA_Application_Platform_CDF_RT-CXP9023595-R1G01.tar.gz,PSR-MTAS_CBA_Application_CDF_RT-CXP9023564-R1H01.tar.gz:OTHER:MTAS_CBA_CDF_AIT_PLUGIN-CXP9025496-R1G01.tar.gz:SiteSpec.conf]
-<?xml version="1.0" ?>
-<SiteConfig>
-  <Nodes>
-    <Node name="SC-1" profile="StandaloneProfile" property="controller"/>
-  </Nodes>
-  <SoftwareConfigData domain="Lpmsv">
-    <parameter name="vDicosVMCoreLinkSetup">
-      <value>Socket=*,Core=*,VT=*</value>
-    </parameter>
-    <parameter name="MultiMMapMaxMem">
-      <value>10</value>
-    </parameter>
-    <parameter name="LOAD_REG_LIMIT">
-      <value>95</value>
-    </parameter>
-    <parameter name="LOAD_REG_MEMORY_LIMIT">
-      <value>95</value>
-    </parameter>
-    <parameter name="LOAD_REG_PROCESS_RESOURCE_LIMIT">
-      <value>50</value>
-    </parameter>
-    <parameter name="TransactionTimerInterval">
-      <value>10000</value>
-    </parameter>
-    <parameter name="JimTcpPortNumber">
-      <value>6497</value>
-    </parameter>
-    <parameter name="tspCmStaticTraceLevel">
-      <value>0</value>
-    </parameter>
-    <parameter name="tspCmApplogDisabled">
-      <value>1</value>
-    </parameter>
-    <parameter name="tspCmOldApplogEnabled">
-      <value>0</value>
-    </parameter>
-    <parameter name="JimMonitorsEnabled">
-      <value>0</value>
-    </parameter>
-    <parameter name="JIMAnonPermissions">
-      <value>0</value>
-    </parameter>
-    <parameter name="JimDebugInfo">
-      <value>0</value>
-    </parameter>
-    <parameter name="DIA_INSTALLER_0">
-      <value>MTAS</value>
-    </parameter>
-    <parameter name="DIA_INSTALLER_1">
-      <value>MTAS_SH</value>
-    </parameter>
-    <parameter name="DIA_INSTALLER_2">
-      <value>MTASXDMS</value>
-    </parameter>
-    <parameter name="DIA_RESOURCE_LIMIT_MTAS">
-      <value>10000</value>
-    </parameter>
-    <parameter name="DIA_RESOURCE_LIMIT_MTAS_SH">
-      <value>10000</value>
-    </parameter>
-    <parameter name="DIA_RESOURCE_LIMIT_MTASXDMS">
-      <value>10000</value>
-    </parameter>
-    <parameter name="vDicosAppLogRelativeLogPath">
-      <value>MTASAppLogs/vdicos</value>
-    </parameter>
-    <parameter name="Ss7CpManagerAddr">
-      <value>SC-1:6669</value>
-    </parameter>
-    <parameter name="IMSAS_DIAMETER_STACK_ID">
-      <value>MTAS</value>
-    </parameter>
-    <parameter name="MTAS_SH_DIAMETER_STACK_ID">
-      <value>MTAS_SH</value>
-    </parameter>
-    <parameter name="MTAS_XDMS_DIAMETER_STACK_ID">
-      <value>MTASXDMS</value>
-    </parameter>
-    <parameter name="MTAS_SIPD_RESLIMIT">
-      <value>3600</value>
-    </parameter>
-    <parameter name="MTAS_LINUXSERVER_RESLIMIT">
-      <value>2000</value>
-    </parameter>
-    <parameter name="MTAS_TIMERP_RESLIMIT">
-      <value>4000</value>
-    </parameter>
-    <parameter name="SIP_ROUTING_STRATEGY">
-      <value>async</value>
-    </parameter>
-    <paramet
 # MTAS(CBA) DEPLOYMENT.working: CXC1737434, R2C01
 # MTAS(CBA) Base: CXS1030166, R1C01
 
@@ -317,7 +162,162 @@ Installation_campaign=COM_SA_I1_TEMPLATE-CXP9018914_3-R6A11/ComSa_install.sdp
 [CD-END:comsa_x86_64-3.5_PRA-runtime_CXP9018914_3_R6A11.tar:SMF:comsa_x86_64-3.5_PRA-deployment_CXP9017695_3_R6A11.tar.gz]
 [CD-BEGIN:LINUX_RUNTIME-CXP9020125_3.tar.gz:SMF:MTAS_CBA_LDEwS_AIT_PLUGIN-CXP9031076-R1G01.tar.gz]
 Installation_campaign=ait/LOTC-CAMPAIGN-SS-CXP9020125_3-R8A08.sdp
-[CD-END:LINUX_RUNTIME-CXP9020125_3.tar.gz:SMF:MTAS_CBA_LDEwS_AIT_PLUGIN-CXP9031076-R1G01.tar.gzer name="MTAS_MAX_LIMIT_APS">
+[CD-END:LINUX_RUNTIME-CXP9020125_3.tar.gz:SMF:MTAS_CBA_LDEwS_AIT_PLUGIN-CXP9031076-R1G01.tar.gz]
+[CD-BEGIN:lm-3.2_PRA-manager_runtime_CXP9020396_3_R3A09.tar.gz:SMF:MTAS_CBA_License_Manager_AIT_PLUGIN-CXP9031079-R2D01.tar.gz]
+Installation_campaign=installCampaign/ERIC-LmServerInstall-R3A09.sdp
+[CD-END:lm-3.2_PRA-manager_runtime_CXP9020396_3_R3A09.tar.gz:SMF:MTAS_CBA_License_Manager_AIT_PLUGIN-CXP9031079-R2D01.tar.gz]
+[CD-BEGIN:LM_SA_RUNTIME-CXP9021377_1-R1D02.tar.gz:SMF:MTAS_CBA_License_Manager_SA_AIT_PLUGIN-CXP9031081-R1G01.tar.gz]
+Installation_campaign=installCampaign/ERIC-LmSA-INSTALL-CXP9021378_1-R1D02.sdp
+[CD-END:LM_SA_RUNTIME-CXP9021377_1-R1D02.tar.gz:SMF:MTAS_CBA_License_Manager_SA_AIT_PLUGIN-CXP9031081-R1G01.tar.gz]
+[CD-BEGIN:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz]
+Installation_campaign=EVIP_I1_TEMPLATE-CXP9020395_1-R5A16/EVIP_INSTALL_SS-R5A16.sdp
+[CD-END:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz]
+[CD-BEGIN:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz:evipcfg.xml]
+<evip version="1.0"/>
+
+[CD-END:evip-2.3_PRA-runtime_CXP9020395_1_R5A16.tar.gz:SMF:evip-2.3_PRA-deployment_CXP9017647_1_R5A16.tar.gz:evipcfg.xml]
+[CD-BEGIN:ss7caf-4.2_SH3-runtime_ANA90137_1_R3A03.tar.gz:SMF:MTAS_CBA_SS7_CAF_AIT_PLUGIN-CXP9031082-R1G01.tar.gz]
+Installation_campaign=./ERIC-SS7CAF_I-TEMPLATE-CXP9020969-R3A03/ERIC-SS7CAF_I-TEMPLATE-CXP9020969-R3A03.sdp
+[CD-END:ss7caf-4.2_SH3-runtime_ANA90137_1_R3A03.tar.gz:SMF:MTAS_CBA_SS7_CAF_AIT_PLUGIN-CXP9031082-R1G01.tar.gz]
+[CD-BEGIN:MTAS_CBA_SLES_RPMS_RT-CXP9040417-R1G01.tar.gz:SMF:MTAS_CBA_SLES_RPMS_AIT_PLUGIN-CXP9031083-R1G01.tar.gz]
+Installation_campaign=./ERIC-SLES_RPMS-I-R1G01.sdp
+[CD-END:MTAS_CBA_SLES_RPMS_RT-CXP9040417-R1G01.tar.gz:SMF:MTAS_CBA_SLES_RPMS_AIT_PLUGIN-CXP9031083-R1G01.tar.gz]
+[CD-BEGIN:JAVAOAM_RUNTIME_CXP9020490_1_R4A101.tar.gz:SMF:JAVAOAM_D_TEMPLATE_CXP9020489_1_R4A101.tar.gz]
+Installation_campaign=ERIC-JAVAOAM-I-CXP9020489_1_R4A101/ERIC-JAVAOAM-I-2SCxNPL.sdp
+[CD-END:JAVAOAM_RUNTIME_CXP9020490_1_R4A101.tar.gz:SMF:JAVAOAM_D_TEMPLATE_CXP9020489_1_R4A101.tar.gz]
+[CD-BEGIN:IspC_RUNTIME_CXP9022351_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_C_AIT_PLUGIN-CXP9031084-R1G01.tar.gz]
+Installation_campaign=ERIC-ISP-C-I1-TEMPLATE-CXP9022352_1-R5A03/ERIC-ISP-C-I1-TEMPLATE-CXP9022352_1-R5A03.sdp
+[CD-END:IspC_RUNTIME_CXP9022351_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_C_AIT_PLUGIN-CXP9031084-R1G01.tar.gz]
+[CD-BEGIN:IspSa_RUNTIME_CXP9022353_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_SA_AIT_PLUGIN-CXP9031085-R1G01.tar.gz]
+Installation_campaign=ERIC-ISP-SA-I1-TEMPLATE-CXP9022354_1-R5A03/ERIC-ISP-SA-I1-TEMPLATE-CXP9022354_1-R5A03.sdp
+[CD-END:IspSa_RUNTIME_CXP9022353_1_R5A.tar.gz:SMF:MTAS_CBA_ISP_SA_AIT_PLUGIN-CXP9031085-R1G01.tar.gz]
+[CD-BEGIN:sec-1.3_PRA-crypto_runtime_CXP9022653_R2A.gz:SMF:MTAS_CBA_SEC_CRYPTO_AIT_PLUGIN-CXP9031086-R1G01.tar.gz]
+Installation_campaign=ERIC-SecCrypto-InstCamp/ERIC-SecCrypto-InstCamp.sdp
+[CD-END:sec-1.3_PRA-crypto_runtime_CXP9022653_R2A.gz:SMF:MTAS_CBA_SEC_CRYPTO_AIT_PLUGIN-CXP9031086-R1G01.tar.gz]
+[CD-BEGIN:sec-1.3_PRA-cert_runtime_CXP9024794_R2A.gz:SMF:MTAS_CBA_SEC_CERT_AIT_PLUGIN-CXP9031087-R1G01.tar.gz]
+Installation_campaign=ERIC-SecCert-InstCamp/ERIC-SecCert-InstCamp.sdp
+[CD-END:sec-1.3_PRA-cert_runtime_CXP9024794_R2A.gz:SMF:MTAS_CBA_SEC_CERT_AIT_PLUGIN-CXP9031087-R1G01.tar.gz]
+[CD-BEGIN:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz]
+Installation_campaign=Brfc-I-CXP9020483_1-R4A06/Brfc-I-CXP9020483_1-R4A06.sdp
+[CD-END:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz]
+[CD-BEGIN:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz:brfc.conf]
+# BRF-C Deployment configuration
+#
+# This parameter is used to determine whether or not BRF-C must allow
+# the deletion of the backup marked as "Primary Restore Candidate" i.e.
+# the first one in restoreEscalationList in BrmBackupLabelStore MOC in BRM MOM.
+#
+#  1 = ENABLED
+#  2 = DISABLED
+#
+# The default value is 1 (ENABLED) to maintain backwards compatibility; however,
+# it is strongly recommended to disable this option to protect the
+# node from a situation where primary restore candidate may be deleted
+# accidentally or otherwise.
+#
+# This value cannot be changed after deployment.
+
+deletePrimaryRestoreCandidate="1"
+
+[CD-END:brfc-1.3_SH6-runtime_CXP9018859_1_R4A06.tar.gz:SMF:MTAS_CBA_BRF_C_AIT_PLUGIN-CXP9031089-R1G01.tar.gz:brfc.conf]
+[CD-BEGIN:LDE_BRF-CXP9021148_2-RUNTIME.tar.gz:SMF:MTAS_CBA_LDE_BRF_AIT_PLUGIN-CXP9031088-R1G01.tar.gz]
+Installation_campaign=ERIC-lde-brf-script_I1_TEMPLATE_CXP9021149_2-R1C01/ERIC-lde-brf-script_I1_TEMPLATE_CXP9021149_2-R1C01.sdp
+[CD-END:LDE_BRF-CXP9021148_2-RUNTIME.tar.gz:SMF:MTAS_CBA_LDE_BRF_AIT_PLUGIN-CXP9031088-R1G01.tar.gz]
+[CD-BEGIN:MTAS_CBA_MMAS_RT-CXP9040418-R1G01.tar.gz:SMF:MTAS_CBA_MMAS_AIT_PLUGIN-CXP9031090-R1G01.tar.gz]
+Installation_campaign=ERIC-MMAS-I-CXP9040089_4_R6A149/ERIC-MMAS-I-GENERATED.sdp
+[CD-END:MTAS_CBA_MMAS_RT-CXP9040418-R1G01.tar.gz:SMF:MTAS_CBA_MMAS_AIT_PLUGIN-CXP9031090-R1G01.tar.gz]
+[CD-BEGIN:CDF_RT-CXP9030885-R3A02.tar.gz,PSR-MTAS_CBA_Application_Platform_CDF_RT-CXP9023595-R1G01.tar.gz,PSR-MTAS_CBA_Application_CDF_RT-CXP9023564-R1H01.tar.gz:OTHER:MTAS_CBA_CDF_AIT_PLUGIN-CXP9025496-R1G01.tar.gz:SiteSpec.conf]
+<?xml version="1.0" ?>
+<SiteConfig>
+  <Nodes>
+    <Node name="SC-1" profile="StandaloneProfile" property="controller"/>
+  </Nodes>
+  <SoftwareConfigData domain="Lpmsv">
+    <parameter name="vDicosVMCoreLinkSetup">
+      <value>Socket=*,Core=*,VT=*</value>
+    </parameter>
+    <parameter name="MultiMMapMaxMem">
+      <value>10</value>
+    </parameter>
+    <parameter name="LOAD_REG_LIMIT">
+      <value>95</value>
+    </parameter>
+    <parameter name="LOAD_REG_MEMORY_LIMIT">
+      <value>95</value>
+    </parameter>
+    <parameter name="LOAD_REG_PROCESS_RESOURCE_LIMIT">
+      <value>50</value>
+    </parameter>
+    <parameter name="TransactionTimerInterval">
+      <value>10000</value>
+    </parameter>
+    <parameter name="JimTcpPortNumber">
+      <value>6497</value>
+    </parameter>
+    <parameter name="tspCmStaticTraceLevel">
+      <value>0</value>
+    </parameter>
+    <parameter name="tspCmApplogDisabled">
+      <value>1</value>
+    </parameter>
+    <parameter name="tspCmOldApplogEnabled">
+      <value>0</value>
+    </parameter>
+    <parameter name="JimMonitorsEnabled">
+      <value>0</value>
+    </parameter>
+    <parameter name="JIMAnonPermissions">
+      <value>0</value>
+    </parameter>
+    <parameter name="JimDebugInfo">
+      <value>0</value>
+    </parameter>
+    <parameter name="DIA_INSTALLER_0">
+      <value>MTAS</value>
+    </parameter>
+    <parameter name="DIA_INSTALLER_1">
+      <value>MTAS_SH</value>
+    </parameter>
+    <parameter name="DIA_INSTALLER_2">
+      <value>MTASXDMS</value>
+    </parameter>
+    <parameter name="DIA_RESOURCE_LIMIT_MTAS">
+      <value>10000</value>
+    </parameter>
+    <parameter name="DIA_RESOURCE_LIMIT_MTAS_SH">
+      <value>10000</value>
+    </parameter>
+    <parameter name="DIA_RESOURCE_LIMIT_MTASXDMS">
+      <value>10000</value>
+    </parameter>
+    <parameter name="vDicosAppLogRelativeLogPath">
+      <value>MTASAppLogs/vdicos</value>
+    </parameter>
+    <parameter name="Ss7CpManagerAddr">
+      <value>SC-1:6669</value>
+    </parameter>
+    <parameter name="IMSAS_DIAMETER_STACK_ID">
+      <value>MTAS</value>
+    </parameter>
+    <parameter name="MTAS_SH_DIAMETER_STACK_ID">
+      <value>MTAS_SH</value>
+    </parameter>
+    <parameter name="MTAS_XDMS_DIAMETER_STACK_ID">
+      <value>MTASXDMS</value>
+    </parameter>
+    <parameter name="MTAS_SIPD_RESLIMIT">
+      <value>3600</value>
+    </parameter>
+    <parameter name="MTAS_LINUXSERVER_RESLIMIT">
+      <value>2000</value>
+    </parameter>
+    <parameter name="MTAS_TIMERP_RESLIMIT">
+      <value>4000</value>
+    </parameter>
+    <parameter name="SIP_ROUTING_STRATEGY">
+      <value>async</value>
+    </parameter>
+    <parameter name="MTAS_MAX_LIMIT_APS">
       <value>4000</value>
     </parameter>
     <parameter name="MAX_WORKER_DIALOGUE_NUMBER">

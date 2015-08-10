@@ -15,7 +15,7 @@ def deployment_ready_clean(fn):
 
     fo = open("DEPLOYMENT.tmp", "w")
 
-    rstate = "R10"
+    rstate = lines[1].rsplit(" ",1)[1]
     rstate=rstate.rstrip()
     create_p_backup=1
 
