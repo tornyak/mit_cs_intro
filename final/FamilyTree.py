@@ -130,35 +130,29 @@ class Family(object):
           distance from each node to their common ancestor.
         """
 
-
-
-        if a == b:
-            return -1, 0
-
         nodeA = self.names_to_nodes[a]
         nodeB = self.names_to_nodes[b]
 
         parentsA = []
         parentsB = []
 
-        pA = nodeA.get_parent()
-        if not pA:
-            return -1, 0
+        cousinType = None
 
+        if a == b:
+            cousinType = -1
+
+        pA = nodeA.get_parent()
         while pA:
             if pA.name == b:
-                return -1, 0
+                cousinType = -1
             parentsA.append(pA)
             pA = pA.get_parent()
 
 
         pB = nodeB.get_parent()
-        if not pB:
-            return -1, 0
-
         while pB:
             if pB.name == a:
-                return -1, 0
+                cousinType = -1
             parentsB.append(pB)
             pB = pB.get_parent()
 
@@ -170,9 +164,11 @@ class Family(object):
             else:
                 break
 
-        cousinType = min(len(parentsA), len(parentsB)) - cnt
+        if cousinType != -1:
+            cousinType = min(len(parentsA), len(parentsB)) - cnt
 
         degreeRemoved = abs(len(parentsA) - len(parentsB))
+
         return cousinType, degreeRemoved
 
 
